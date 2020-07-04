@@ -7,10 +7,16 @@ cache:
     directories: 
         - ./tu-guia-travis/node_modules
 install:
-     -npm install
+     - npm install
 script: 
     - npm run-script build
     
-
+deploy:
+        provider:
+         skip_cleanup: true:
+        github_token: $GITHUB_TOKEN
+        local_dir: tu-guia-travis/WWW
+        on:
+            branch: master 
 
 
