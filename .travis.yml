@@ -1,0 +1,12 @@
+lenguaje: node_js
+node_js: 
+    - "13.12.0"
+
+before_install: cd ./tu-guia
+cache:
+    directories: - ./tu-guia/node_modules
+install: -npm install
+after_success: 
+after_failure:
+before_deploy:
+deploy:
