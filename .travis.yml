@@ -15,7 +15,7 @@ deploy:
         provider:
          skip_cleanup: true:
         github_token: $GITHUB_TOKEN
-        local_dir: tu-guia-travis/WWW
+        local_dir: 
         on:
             branch: master 
 
