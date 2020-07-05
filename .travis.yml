@@ -1,11 +1,10 @@
 
-
-          lenguaje: node_js
+lenguaje: node_js
 node_js: 
     - "13.12.0"
 
 before_install: cd ./tu-guia-travis
-      — npm install -g ionic
+    
 cache:
     directories: 
         - ./tu-guia-travis/node_modules
@@ -13,15 +12,17 @@ install:
      - npm install
  script:
     - npm run test:ci -- --watch=false --no-progress --browsers=ChromeHeadlessNoSandbox 
-    - npm run build
+    - npm run-script build
+    — npm install -g ionic
        
-    
-deploy:
+    deploy:
         provider:
          skip_cleanup: true:
         github_token: $GITHUB_TOKEN
-        local_dir: tu-guia-travis/www
+        local_dir: www
         on:
             branch: master
+
+
        
                 
