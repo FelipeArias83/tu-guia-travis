@@ -12,15 +12,14 @@ cache:
         - ./tu-guia-travis/node_modules
 install:
      - npm install
-script: 
-    - npm run-script build
+
    
 
 before_script:
             — npm install -g ionic
             — npm ci 
-            script:
-                — ionic build 
+                script:
+                    — ionic build  --prod 
            
     
 deploy:
