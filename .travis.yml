@@ -12,7 +12,10 @@
      — npm install -g ionic
      — npm ci 
     script:
-     — ionic build --prod -- --base-href ./
+     — ionic build --prod -- --base-href=www
+     - npm run test:ci -- --watch=false --no-progress --browsers=ChromeHeadlessNoSandbox
+     - npm run-script build
+
 
     deploy:
      provider: pages
