@@ -11,19 +11,17 @@ cache:
         - ./tu-guia-travis/node_modules
 install:
      - npm install
-     
-script: 
-    — npm install -g ionic
-   
+ script:
+    - npm run test:ci -- --watch=false --no-progress --browsers=ChromeHeadlessNoSandbox 
+    - npm run build
+       
     
 deploy:
-        provider: pages
+        provider:
          skip_cleanup: true:
         github_token: $GITHUB_TOKEN
-        local_dir: tu-guia-travis/wwww
+        local_dir: tu-guia-travis/www
         on:
             branch: master
-           
-          
-           
-               
+       
+                
