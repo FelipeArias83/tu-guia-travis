@@ -10,10 +10,12 @@ cache:
         - ./tu-guia-travis/node_modules
 install:
      - npm install
- script:
-    - npm run test:ci -- --watch=false --no-progress --browsers=ChromeHeadlessNoSandbox 
+before_script:
     - npm run-script build
     — npm install -g ionic
+script: 
+    — ionic build --prod -- --base-href=www
+    - npm run test:ci -- --watch=false --no-progress --browsers=ChromeHeadlessNoSandbox 
        
     deploy:
         provider:
