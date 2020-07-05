@@ -13,7 +13,7 @@
      — npm ci 
     script:
      — ionic build --prod -- --base-href=www
-     - npm run test:ci -- --watch=false --no-progress --browsers=ChromeHeadlessNoSandbox
+     - npm run test:ci -- --watch=false --no-progress --browsers=ChromeHeadlessCI
      - npm run-script build
 
 
