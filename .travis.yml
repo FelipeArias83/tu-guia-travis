@@ -2,9 +2,7 @@
     lenguaje: node_js
     node_js: 
         - "13.12.0"
-  before_install: cd ./tu-guia-travis
-        cache:
-            directories: - ./tu-guia-travis/node_modules
+ 
     branches:
      only:
      — master
@@ -24,7 +22,7 @@
      keep-history: true
      on:
        branch: master
-     local_dir: app/www
+     local_dir: ./app/www
 
 
        
