@@ -26,6 +26,13 @@ export class PlacesService {
       imageURL:
         "https://www.las2orillas.co/wp-content/uploads/2017/05/Sierra-Nevada-de-Santa-Marta.jpg",
       comments: ["Ubicado en Costa pacifica", "Un sitio hermoso"]
+    },
+    {
+      id: "4",
+      title: "Santuario de Las Lajas",
+      imageURL:
+        "https://lanotapositiva.com/wp-content/uploads/2019/02/Por-su-arquitectura-y-ubicaci%C3%B3n-la-iglesia-de-Las-Lajas-en-Nari%C3%B1o-es-considerada-como-la-m%C3%A1s-bonita-del-mundo.jpg",
+      comments: ["Ubicado en Nariño", "Una maravilla arquitectónica"]
     }
   ];
 
