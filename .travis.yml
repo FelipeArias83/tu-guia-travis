@@ -14,10 +14,6 @@
     script:
      - npm run-script build
 
-     addons:
-      apt:
-        packages:
-          - libgmp3-dev
 
 
     deploy:
