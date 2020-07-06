@@ -32,7 +32,7 @@ export class PlacesService {
       title: "Santuario de Las Lajas",
       imageURL:
         "https://lanotapositiva.com/wp-content/uploads/2019/02/Por-su-arquitectura-y-ubicaci%C3%B3n-la-iglesia-de-Las-Lajas-en-Nari%C3%B1o-es-considerada-como-la-m%C3%A1s-bonita-del-mundo.jpg",
-      comments: ["Ubicado en Nariño", "Una maravilla arquitectónica"]
+      comments: ["Ubicado en el Dpto. de Nariño", "Una maravilla arquitectónica"]
     }
   ];
 
