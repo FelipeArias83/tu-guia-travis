@@ -33,6 +33,13 @@ export class PlacesService {
       imageURL:
         "https://lanotapositiva.com/wp-content/uploads/2019/02/Por-su-arquitectura-y-ubicaci%C3%B3n-la-iglesia-de-Las-Lajas-en-Nari%C3%B1o-es-considerada-como-la-m%C3%A1s-bonita-del-mundo.jpg",
       comments: ["Ubicado en el Dpto. de Nariño", "Una maravilla arquitectónica"]
+    },
+    {
+      id: "5",
+      title: "Minas de sal de Nemocón",
+      imageURL:
+        "https://chipviajero.com/wp-content/uploads/2017/10/Como-Llegar-A-La-Mina-De-Sal-De-Nemoc%C3%B3n-Cundinamarca-Chip-Viajero-Blog-8.jpg",
+      comments:["Ubicado en Cundinamarca", "famoso por su gran actividad minera"]
     }
   ];
 
