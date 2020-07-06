@@ -25,7 +25,7 @@ export class PlacesService {
       title: "sierra Nevada de Santamarta",
       imageURL:
         "https://www.las2orillas.co/wp-content/uploads/2017/05/Sierra-Nevada-de-Santa-Marta.jpg",
-      comments: ["Ubicado en Costa pacifica", "Un sitio hermoso"]
+      comments: ["Ubicado en Costa Pacífica", "Un sitio hermoso"]
     },
     {
       id: "4",
