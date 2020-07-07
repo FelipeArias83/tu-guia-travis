@@ -21,6 +21,10 @@
       github-token: $GITHUB_TOKEN
       keep-history: true 
       local_dir: ./app/www
+      target-branch: master
+      on:
+          branch: master
+     
  
 
 
