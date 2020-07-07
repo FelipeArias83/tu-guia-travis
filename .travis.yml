@@ -12,12 +12,4 @@
      — npm install -g ionic
      — npm ci 
     script:
-     - npm run-script build
-
-
-     
- 
-
-
-       
-                
+     - npm run-script build             

@@ -1,5 +1,7 @@
 # Tu Guía APP
 
+[![Build Status](https://travis-ci.org/FelipeArias83/tu-guia-travis.svg?branch=master)](https://travis-ci.org/FelipeArias83/tu-guia-travis)
+
 Es una aplicación para resaltar lugares turísticos de Colombia
 
 # Captura

@@ -47,6 +47,13 @@ export class PlacesService {
       imageURL:
         "https://www.ecured.cu/images/0/02/Parque_nacional_tuparro.jpg",
       comments:["Reserva Natural ubicada en VIchada", "Ofrece hermosos paisajes y fauna silvestre"]
+    },
+    {
+      id: "7",
+      title: "Caño Cristal",
+      imageURL:
+        "https://cdn.colombia.com/sdi/2019/02/12/guia-para-tu-viaje-a-cano-cristales-709621.jpg",
+      comments:["Ubicado en la sierra de la Macarena en el Meta", "Catalogado como el Río más Hermoso del Mundo"]
     }
   ];
 
