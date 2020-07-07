@@ -11,7 +11,7 @@ export class PlacesService {
       title: "Monserrate",
       imageURL:
         "https://www.bogotraveltours.com/wp-content/uploads/monserrate-bogota-tours.jpg",
-      comments: ["Asombroso cerro de Monserrate", "Iglesia"]
+      comments: ["Asombroso cerro de Monserrate", "Lugar Religioso"]
     },
     {
       id: "2",
