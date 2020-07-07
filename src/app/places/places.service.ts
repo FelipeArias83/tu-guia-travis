@@ -40,6 +40,13 @@ export class PlacesService {
       imageURL:
         "https://chipviajero.com/wp-content/uploads/2017/10/Como-Llegar-A-La-Mina-De-Sal-De-Nemoc%C3%B3n-Cundinamarca-Chip-Viajero-Blog-8.jpg",
       comments:["Ubicado en Cundinamarca", "famoso por su gran actividad minera"]
+    },
+    {
+      id: "6",
+      title: "Parque Nacional Natural El Tuparro",
+      imageURL:
+        "https://www.ecured.cu/images/0/02/Parque_nacional_tuparro.jpg",
+      comments:["Reserva Natural ubicada en VIchada", "Ofrece hermosos paisajes y fauna silvestre"]
     }
   ];
 
